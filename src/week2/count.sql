@@ -13,6 +13,15 @@ SELECT DISTINCT JOB_ID FROM EMPLOYEES;
 
 SELECT JOB_ID FROM EMPLOYEES;
 
+-- get me postal_code from JP, UK, CA
+SELECT * FROM LOCATIONS;
+
+
+
+
+
+
+
 
 
 
