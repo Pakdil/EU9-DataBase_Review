@@ -20,4 +20,10 @@ select FIRST_NAME, DEPARTMENT_NAME from EMPLOYEES
 inner join DEPARTMENTS
 ON EMPLOYEES.DEPARTMENT_ID = DEPARTMENTS.DEPARTMENT_ID;
 
+-- get me job id and manager id in one table
+select J.JOB_ID, E.MANAGER_ID
+FROM JOBS J join EMPLOYEES E
+on J.JOB_ID = E.JOB_ID;
+
+
 
